@@ -1,7 +1,7 @@
 # TeamFlow — SaaS Landing Pages (Home, Product, Blog)
 
 **Live Demo:**  
-https://yourusername.github.io/teamflow/
+https://praveen-codedev.github.io/teamflow/
 
 This project contains three modern, responsive SaaS-style pages:
 - Homepage  
@@ -59,7 +59,7 @@ Deployed using GitHub Pages:
 - Folder: `/ (root)`
 
 Live URL:  
-`https://yourusername.github.io/teamflow/`
+https://praveen-codedev.github.io/teamflow/
 
 ---
 
