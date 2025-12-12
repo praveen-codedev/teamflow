@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TeamFlow — Product Details</title>
+  <meta name="description" content="TeamFlow product details. Task management, time tracking, collaboration, and integrations.">
+  <link rel="stylesheet" href="styles.css">
+  <!-- preload simple single file -->
+  <link rel="preload" as="image" href="teamflow-product.jpg">
+</head>
+<body>
+  <nav>
+    <div class="logo">TeamFlow</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="blog.html">Blog</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <button id="theme-toggle" class="toggle" aria-label="Toggle theme" title="Toggle dark / light">
+        <div class="dot" style="width:16px;height:16px;border-radius:999px;"></div>
+        <small style="color:var(--muted); font-weight:700">Theme</small>
+      </button>
+      <a class="cta-btn" href="#">Get Started</a>
+    </div>
+  </nav>
+
+  <main style="padding:56px 48px">
+    <div class="back-row">
+      <a class="back-btn" href="index.html" aria-label="Home">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Home
+      </a>
+      <h1 style="margin:0;font-size:34px">Explore TeamFlow Features</h1>
+    </div>
+
+    <section class="hero" style="padding:18px 0 30px 0;">
+      <div style="flex:1">
+        <h2 style="font-size:30px;margin:0 0 12px 0">All the tools your team needs</h2>
+        <p style="color:var(--muted);margin:0 0 16px">Deep dive into features: tasks, timelines, analytics, integrations and more. Built to scale with your team.</p>
+        <a class="cta-btn" href="#features">See Features</a>
+      </div>
+
+      <div class="hero-visual" style="flex:1;display:flex;justify-content:center;">
+        <!-- single product hero filename -->
+        <img src="teamflow-product.jpg" alt="Product overview screenshot" loading="lazy">
+      </div>
+    </section>
+
+    <section id="features" style="margin-top:12px">
+      <p style="color:var(--muted)">TeamFlow’s building blocks — each designed to reduce friction and speed delivery.</p>
+
+      <div class="grid-3" style="margin-top:20px;">
+        <div class="feature">
+          <div class="icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M9 11L11.5 13.5L15 10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h4>Task Management</h4>
+          <p>Create tasks, checklists, subtasks, attachments and custom statuses.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M3 7h18" stroke="currentColor" stroke-width="1.6"/><rect x="3" y="9" width="18" height="11" rx="2" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <h4>Smart Scheduling</h4>
+          <p>Milestones, timelines and calendar sync (Google Calendar / Outlook).</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 0 0-2-2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <h4>Team Collaboration</h4>
+          <p>Comments, mentions, file attachments, and contextual conversations.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M3 12h18" stroke="currentColor" stroke-width="1.6"/><path d="M7 6v6l5 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <h4>Time Tracking</h4>
+          <p>Start/stop timers per task, export timesheets and billable hours reporting.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M3 6h18" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18" stroke="currentColor" stroke-width="1.6"/><path d="M3 18h18" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <h4>Analytics</h4>
+          <p>Velocity charts, burn-downs, and exportable CSV/JSON reports.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <h4>Integrations</h4>
+          <p>Slack, Google Drive, Zapier, and more — built for workflows you already use.</p>
+        </div>
+      </div>
+    </section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <h2>Pricing</h2>
+  <div class="pricing">
+    <div class="plan">
+      <h4>Starter</h4>
+      <div class="price">₹99<span style="font-size:14px;color:var(--muted)">/mo</span></div>
+      <p>Single user • Unlimited tasks</p>
+    </div>
+
+    <div class="plan">
+      <h4>Pro</h4>
+      <div class="price">₹999<span style="font-size:14px;color:var(--muted)">/mo</span></div>
+      <p>Up to 10 users • Project templates</p>
+    </div>
+
+    <div class="plan">
+      <h4>Enterprise</h4>
+      <div class="price">₹4999<span style="font-size:14px;color:var(--muted)">/mo</span></div>
+      <p>Custom users • SSO & priority support</p>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer style="padding:30px 48px">© 2025 TeamFlow</footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

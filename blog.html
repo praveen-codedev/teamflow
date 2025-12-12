@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TeamFlow Blog</title>
+  <meta name="description" content="TeamFlow blog articles on productivity, remote work, project planning and team best practices.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" as="image" href="blog-hero.jpg">
+</head>
+<body class="blog-page">
+
+  <nav>
+    <div class="logo">TeamFlow</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="blog.html">Blog</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center">
+      <button id="theme-toggle" class="toggle" aria-label="Toggle theme" title="Toggle dark / light">
+        <div class="dot" style="width:16px;height:16px;border-radius:999px;"></div>
+        <small style="color:var(--muted); font-weight:700">Theme</small>
+      </button>
+      <a class="cta-btn" href="#">Get Started</a>
+    </div>
+  </nav>
+
+  <main style="padding:56px 48px">
+    <div class="back-row">
+      <a class="back-btn" href="index.html" aria-label="Back to Home">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Home
+      </a>
+      <h1 style="margin:0;font-size:34px">Latest Articles</h1>
+    </div>
+
+    <!-- optional hero banner on blog -->
+    <section class="hero" style="padding:18px 0 30px 0;">
+      <div style="flex:1">
+        <h2 style="font-size:26px;margin:0 0 8px 0">Insights on teamwork, planning & productivity</h2>
+        <p style="color:var(--muted);margin:0">Practical pieces for managers, freelancers and remote teams.</p>
+      </div>
+
+      <div class="hero-visual" style="flex:1;display:flex;justify-content:center;">
+        <img src="blog-hero.jpg" alt="Blog hero image" loading="lazy">
+      </div>
+    </section>
+
+    <!-- Blog listing: 6 sample posts, each with image + excerpt -->
+    <section style="margin-top:18px; display:grid; gap:16px;">
+      <article class="post-card">
+        <img src="blog1-800.jpg" alt="Why teams love TeamFlow" loading="lazy">
+        <div class="meta">
+          <h3 style="margin:0 0 6px">Why Teams Love TeamFlow</h3>
+          <p style="margin:0;color:var(--muted)">Discover how small changes in workflows produce big productivity gains.</p>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <img src="blog2-800.jpg" alt="Project planning tips" loading="lazy">
+        <div class="meta">
+          <h3 style="margin:0 0 6px">10 Tips for Better Project Planning</h3>
+          <p style="margin:0;color:var(--muted)">Practical steps to make your roadmaps realistic and measurable.</p>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <img src="blog3-800.jpg" alt="Remote work best practices" loading="lazy">
+        <div class="meta">
+          <h3 style="margin:0 0 6px">Remote Work Best Practices</h3>
+          <p style="margin:0;color:var(--muted)">How to keep collaboration tight when your team is distributed.</p>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <img src="blog4-800.jpg" alt="Boost team velocity" loading="lazy">
+        <div class="meta">
+          <h3 style="margin:0 0 6px">Boost Team Velocity</h3>
+          <p style="margin:0;color:var(--muted)">Data-driven methods to increase throughput while reducing burnout.</p>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <img src="blog5-800.jpg" alt="Managing complex projects" loading="lazy">
+        <div class="meta">
+          <h3 style="margin:0 0 6px">Managing Complex Projects</h3>
+          <p style="margin:0;color:var(--muted)">Break complexity into digestible, achievable workstreams.</p>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <img src="blog6-800.jpg" alt="Collaboration tools you need" loading="lazy">
+        <div class="meta">
+          <h3 style="margin:0 0 6px">Collaboration Tools You Need</h3>
+          <p style="margin:0;color:var(--muted)">Shortlist of apps and workflows that actually help teams ship.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <h2>Pricing</h2>
+  <div class="pricing">
+    <div class="plan">
+      <h4>Starter</h4>
+      <div class="price">₹99<span style="font-size:14px;color:var(--muted)">/mo</span></div>
+      <p>Single user • Unlimited tasks</p>
+    </div>
+
+    <div class="plan">
+      <h4>Pro</h4>
+      <div class="price">₹999<span style="font-size:14px;color:var(--muted)">/mo</span></div>
+      <p>Up to 10 users • Project templates</p>
+    </div>
+
+    <div class="plan">
+      <h4>Enterprise</h4>
+      <div class="price">₹4999<span style="font-size:14px;color:var(--muted)">/mo</span></div>
+      <p>Custom users • SSO & priority support</p>
+    </div>
+  </div>
+</section>  
+
+  <footer style="padding:30px 48px">© 2025 TeamFlow</footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
